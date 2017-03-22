@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GLD-b5-8fm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="PAO-kj-rws">
+            <objects>
+                <navigationController id="GLD-b5-8fm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="lNy-DL-Bbk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.023410373259999999" green="0.27152586290000003" blue="0.74072137969999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OOe-XI-oej" kind="relationship" relationship="rootViewController" id="K32-4I-g09"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHY-kO-G2B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="60"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="uNv-VG-r3U">
+            <objects>
+                <viewController id="OOe-XI-oej" customClass="MainVC" customModule="Zeamo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TP3-pK-s3F"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tbo-1G-78I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ETD-nT-avm">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="95T-mW-1yN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="LoX-OV-tk4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Searches" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldj-3v-P0V">
+                                            <rect key="frame" x="16" y="24" width="169" height="29"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.81563293147208116" green="0.81563293147208116" blue="0.81563293147208116" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="ldj-3v-P0V" firstAttribute="leading" secondItem="LoX-OV-tk4" secondAttribute="leading" constant="16" id="Oqu-4S-VO8"/>
+                                        <constraint firstItem="ldj-3v-P0V" firstAttribute="centerY" secondItem="LoX-OV-tk4" secondAttribute="centerY" id="fup-eY-E1x"/>
+                                    </constraints>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ItemSearchCell" rowHeight="57" id="TSO-WB-NSt" customClass="ItemSearchCell" customModule="Zeamo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="105" width="375" height="57"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TSO-WB-NSt" id="LZd-N3-vqC">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sc-9c-wsH">
+                                                    <rect key="frame" x="24" y="14" width="51" height="29"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4sc-9c-wsH" firstAttribute="leading" secondItem="LZd-N3-vqC" secondAttribute="leadingMargin" constant="16" id="QZc-dO-4L7"/>
+                                                <constraint firstItem="4sc-9c-wsH" firstAttribute="centerY" secondItem="LZd-N3-vqC" secondAttribute="centerY" id="ddm-xZ-CYc"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4sc-9c-wsH" secondAttribute="trailing" constant="16" id="nsD-sV-5Z8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="name" destination="4sc-9c-wsH" id="9r8-QL-EWK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="95T-mW-1yN" firstAttribute="leading" secondItem="ETD-nT-avm" secondAttribute="leading" id="UfZ-nf-3df"/>
+                            <constraint firstItem="95T-mW-1yN" firstAttribute="top" secondItem="TP3-pK-s3F" secondAttribute="bottom" id="rqO-nW-YlG"/>
+                            <constraint firstAttribute="trailing" secondItem="95T-mW-1yN" secondAttribute="trailing" id="xRd-bz-11C"/>
+                            <constraint firstItem="Tbo-1G-78I" firstAttribute="top" secondItem="95T-mW-1yN" secondAttribute="bottom" id="xjh-Ld-xca"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="ic_bar_search" id="K50-lL-PUp"/>
+                    <navigationItem key="navigationItem" id="f0S-Nc-Y6U"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="95T-mW-1yN" id="l24-Tm-Vnb"/>
+                        <segue destination="uAe-Dg-GUL" kind="show" identifier="goToDetailClass" id="bGi-0C-8BT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2r-11-Jfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="59.820089955022496"/>
+        </scene>
+        <!--Classes-->
+        <scene sceneID="LLs-67-bxq">
+            <objects>
+                <viewController id="uAe-Dg-GUL" customClass="DetailClassVC" customModule="Zeamo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pIZ-Ca-NeL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLt-FH-mW2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r1m-Ze-8VL">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Classes" id="nDK-l7-dzA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="el6-pn-A33" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="60"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_bar_search" width="30" height="26"/>
+    </resources>
+</document>

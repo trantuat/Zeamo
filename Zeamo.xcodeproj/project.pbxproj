@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1428096D276345A977755F41 /* Pods_Zeamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00362A0D42115C4BC10B2883 /* Pods_Zeamo.framework */; };
 		3609424C1E7FCC2100F12874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609424B1E7FCC2100F12874 /* AppDelegate.swift */; };
-		3609424E1E7FCC2100F12874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609424D1E7FCC2100F12874 /* ViewController.swift */; };
+		3609424E1E7FCC2100F12874 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609424D1E7FCC2100F12874 /* MainVC.swift */; };
 		360942511E7FCC2100F12874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3609424F1E7FCC2100F12874 /* Main.storyboard */; };
 		360942531E7FCC2100F12874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360942521E7FCC2100F12874 /* Assets.xcassets */; };
 		360942561E7FCC2100F12874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360942541E7FCC2100F12874 /* LaunchScreen.storyboard */; };
+		360942631E7FCDD600F12874 /* SwinjectStoryboard+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942621E7FCDD600F12874 /* SwinjectStoryboard+View.swift */; };
+		360942651E7FCDF400F12874 /* ViewKey+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942641E7FCDF400F12874 /* ViewKey+ViewModel.swift */; };
+		3609426A1E7FD27C00F12874 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942691E7FD27C00F12874 /* MainViewModel.swift */; };
+		3609426C1E7FD62500F12874 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609426B1E7FD62500F12874 /* WelcomeVC.swift */; };
+		3609426E1E7FD63A00F12874 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609426D1E7FD63A00F12874 /* LoginVC.swift */; };
+		360942701E7FD65300F12874 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609426F1E7FD65300F12874 /* CreateAccountVC.swift */; };
+		360942731E7FD77400F12874 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942721E7FD77400F12874 /* CircleImageView.swift */; };
+		360942751E7FD8D000F12874 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942741E7FD8D000F12874 /* RoundButton.swift */; };
+		360942791E7FDD8300F12874 /* ImageRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942781E7FDD8300F12874 /* ImageRightButton.swift */; };
+		3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF71E80493F001A8C92 /* DetailClassVC.swift */; };
+		3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */; };
+		36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */; };
+		36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A4E1E80032000C5CA8E /* CornerView.swift */; };
+		36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */; };
+		36F99A531E800D7C00C5CA8E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */; };
+		36F99A551E80116100C5CA8E /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A541E80116100C5CA8E /* ForgotPasswordVC.swift */; };
+		36F99A571E80119600C5CA8E /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A561E80119600C5CA8E /* ForgotPasswordViewModel.swift */; };
+		36F99A591E8013DC00C5CA8E /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F99A581E8013DC00C5CA8E /* Search.storyboard */; };
+		36F99A5B1E8013F300C5CA8E /* Bookings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F99A5A1E8013F300C5CA8E /* Bookings.storyboard */; };
+		36F99A5D1E80141A00C5CA8E /* Favourites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F99A5C1E80141A00C5CA8E /* Favourites.storyboard */; };
+		36F99A5F1E80142F00C5CA8E /* Insurance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F99A5E1E80142F00C5CA8E /* Insurance.storyboard */; };
+		36F99A611E80144400C5CA8E /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F99A601E80144400C5CA8E /* Settings.storyboard */; };
+		36F99A641E8035A700C5CA8E /* ItemSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A631E8035A700C5CA8E /* ItemSearchCell.swift */; };
+		36F99A661E80383700C5CA8E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A651E80383700C5CA8E /* Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00362A0D42115C4BC10B2883 /* Pods_Zeamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187761030B4EF9A605A6B46C /* Pods-Zeamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zeamo/Pods-Zeamo.debug.xcconfig"; sourceTree = "<group>"; };
 		360942481E7FCC2100F12874 /* Zeamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3609424B1E7FCC2100F12874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3609424D1E7FCC2100F12874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3609424D1E7FCC2100F12874 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		360942501E7FCC2100F12874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		360942521E7FCC2100F12874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360942551E7FCC2100F12874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		360942571E7FCC2100F12874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360942621E7FCDD600F12874 /* SwinjectStoryboard+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+View.swift"; sourceTree = "<group>"; };
+		360942641E7FCDF400F12874 /* ViewKey+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewKey+ViewModel.swift"; sourceTree = "<group>"; };
+		360942691E7FD27C00F12874 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3609426B1E7FD62500F12874 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		3609426D1E7FD63A00F12874 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3609426F1E7FD65300F12874 /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		360942721E7FD77400F12874 /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		360942741E7FD8D000F12874 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		360942781E7FDD8300F12874 /* ImageRightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightButton.swift; sourceTree = "<group>"; };
+		3625DEF71E80493F001A8C92 /* DetailClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassVC.swift; sourceTree = "<group>"; };
+		3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassViewModel.swift; sourceTree = "<group>"; };
+		36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		36F99A4E1E80032000C5CA8E /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		36F99A541E80116100C5CA8E /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		36F99A561E80119600C5CA8E /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		36F99A581E8013DC00C5CA8E /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		36F99A5A1E8013F300C5CA8E /* Bookings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bookings.storyboard; sourceTree = "<group>"; };
+		36F99A5C1E80141A00C5CA8E /* Favourites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favourites.storyboard; sourceTree = "<group>"; };
+		36F99A5E1E80142F00C5CA8E /* Insurance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Insurance.storyboard; sourceTree = "<group>"; };
+		36F99A601E80144400C5CA8E /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		36F99A631E8035A700C5CA8E /* ItemSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSearchCell.swift; sourceTree = "<group>"; };
+		36F99A651E80383700C5CA8E /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		7FF647D017C4B89864F0B22C /* Pods-Zeamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeamo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zeamo/Pods-Zeamo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +81,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1428096D276345A977755F41 /* Pods_Zeamo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B9601D9E3C25C08D24C307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				187761030B4EF9A605A6B46C /* Pods-Zeamo.debug.xcconfig */,
+				7FF647D017C4B89864F0B22C /* Pods-Zeamo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3609423F1E7FCC2000F12874 = {
 			isa = PBXGroup;
 			children = (
 				3609424A1E7FCC2100F12874 /* Zeamo */,
 				360942491E7FCC2100F12874 /* Products */,
+				16B9601D9E3C25C08D24C307 /* Pods */,
+				377C15443BE29B518AE2E4AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +118,126 @@
 		3609424A1E7FCC2100F12874 /* Zeamo */ = {
 			isa = PBXGroup;
 			children = (
-				3609424B1E7FCC2100F12874 /* AppDelegate.swift */,
-				3609424D1E7FCC2100F12874 /* ViewController.swift */,
-				3609424F1E7FCC2100F12874 /* Main.storyboard */,
+				360942681E7FD1D100F12874 /* Application */,
+				360942671E7FD1BF00F12874 /* Storyboard */,
+				360942601E7FCD8700F12874 /* Extension */,
+				3609425F1E7FCD7200F12874 /* View */,
+				3609425E1E7FCD6200F12874 /* ViewModel */,
+				3609425D1E7FCD5600F12874 /* Model */,
 				360942521E7FCC2100F12874 /* Assets.xcassets */,
-				360942541E7FCC2100F12874 /* LaunchScreen.storyboard */,
 				360942571E7FCC2100F12874 /* Info.plist */,
 			);
 			path = Zeamo;
+			sourceTree = "<group>";
+		};
+		3609425D1E7FCD5600F12874 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36F99A651E80383700C5CA8E /* Class.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3609425E1E7FCD6200F12874 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				360942611E7FCDA400F12874 /* Extension */,
+				360942691E7FD27C00F12874 /* MainViewModel.swift */,
+				36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */,
+				36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */,
+				36F99A561E80119600C5CA8E /* ForgotPasswordViewModel.swift */,
+				3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3609425F1E7FCD7200F12874 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36F99A621E8034E800C5CA8E /* Cell */,
+				360942711E7FD75E00F12874 /* CustomeView */,
+				360942661E7FCE0800F12874 /* Controller */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		360942601E7FCD8700F12874 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				360942621E7FCDD600F12874 /* SwinjectStoryboard+View.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		360942611E7FCDA400F12874 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				360942641E7FCDF400F12874 /* ViewKey+ViewModel.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		360942661E7FCE0800F12874 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3609424D1E7FCC2100F12874 /* MainVC.swift */,
+				3609426B1E7FD62500F12874 /* WelcomeVC.swift */,
+				3609426D1E7FD63A00F12874 /* LoginVC.swift */,
+				3609426F1E7FD65300F12874 /* CreateAccountVC.swift */,
+				36F99A541E80116100C5CA8E /* ForgotPasswordVC.swift */,
+				3625DEF71E80493F001A8C92 /* DetailClassVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		360942671E7FD1BF00F12874 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				360942541E7FCC2100F12874 /* LaunchScreen.storyboard */,
+				3609424F1E7FCC2100F12874 /* Main.storyboard */,
+				36F99A581E8013DC00C5CA8E /* Search.storyboard */,
+				36F99A5A1E8013F300C5CA8E /* Bookings.storyboard */,
+				36F99A5C1E80141A00C5CA8E /* Favourites.storyboard */,
+				36F99A5E1E80142F00C5CA8E /* Insurance.storyboard */,
+				36F99A601E80144400C5CA8E /* Settings.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		360942681E7FD1D100F12874 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3609424B1E7FCC2100F12874 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		360942711E7FD75E00F12874 /* CustomeView */ = {
+			isa = PBXGroup;
+			children = (
+				360942741E7FD8D000F12874 /* RoundButton.swift */,
+				360942721E7FD77400F12874 /* CircleImageView.swift */,
+				360942781E7FDD8300F12874 /* ImageRightButton.swift */,
+				36F99A4E1E80032000C5CA8E /* CornerView.swift */,
+				36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */,
+			);
+			name = CustomeView;
+			sourceTree = "<group>";
+		};
+		36F99A621E8034E800C5CA8E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				36F99A631E8035A700C5CA8E /* ItemSearchCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		377C15443BE29B518AE2E4AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00362A0D42115C4BC10B2883 /* Pods_Zeamo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3609425A1E7FCC2100F12874 /* Build configuration list for PBXNativeTarget "Zeamo" */;
 			buildPhases = (
+				A1166D68D0035E462749B46B /* [CP] Check Pods Manifest.lock */,
 				360942441E7FCC2100F12874 /* Sources */,
 				360942451E7FCC2100F12874 /* Frameworks */,
 				360942461E7FCC2100F12874 /* Resources */,
+				D04C16E9476B01C8D73ED6D8 /* [CP] Embed Pods Frameworks */,
+				EA5474496BF9B6D96B7A75F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +303,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				360942561E7FCC2100F12874 /* LaunchScreen.storyboard in Resources */,
+				36F99A5B1E8013F300C5CA8E /* Bookings.storyboard in Resources */,
+				36F99A5D1E80141A00C5CA8E /* Favourites.storyboard in Resources */,
+				36F99A611E80144400C5CA8E /* Settings.storyboard in Resources */,
+				36F99A5F1E80142F00C5CA8E /* Insurance.storyboard in Resources */,
 				360942531E7FCC2100F12874 /* Assets.xcassets in Resources */,
+				36F99A591E8013DC00C5CA8E /* Search.storyboard in Resources */,
 				360942511E7FCC2100F12874 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1166D68D0035E462749B46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D04C16E9476B01C8D73ED6D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeamo/Pods-Zeamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5474496BF9B6D96B7A75F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zeamo/Pods-Zeamo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		360942441E7FCC2100F12874 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3609424E1E7FCC2100F12874 /* ViewController.swift in Sources */,
+				3609426A1E7FD27C00F12874 /* MainViewModel.swift in Sources */,
+				36F99A641E8035A700C5CA8E /* ItemSearchCell.swift in Sources */,
+				360942791E7FDD8300F12874 /* ImageRightButton.swift in Sources */,
+				360942731E7FD77400F12874 /* CircleImageView.swift in Sources */,
+				36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */,
+				3609424E1E7FCC2100F12874 /* MainVC.swift in Sources */,
+				36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */,
+				3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */,
+				36F99A551E80116100C5CA8E /* ForgotPasswordVC.swift in Sources */,
+				360942701E7FD65300F12874 /* CreateAccountVC.swift in Sources */,
+				36F99A531E800D7C00C5CA8E /* LoginViewModel.swift in Sources */,
+				36F99A571E80119600C5CA8E /* ForgotPasswordViewModel.swift in Sources */,
+				3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */,
+				3609426E1E7FD63A00F12874 /* LoginVC.swift in Sources */,
+				360942651E7FCDF400F12874 /* ViewKey+ViewModel.swift in Sources */,
+				36F99A661E80383700C5CA8E /* Class.swift in Sources */,
+				36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */,
+				360942751E7FD8D000F12874 /* RoundButton.swift in Sources */,
+				3609426C1E7FD62500F12874 /* WelcomeVC.swift in Sources */,
+				360942631E7FCDD600F12874 /* SwinjectStoryboard+View.swift in Sources */,
 				3609424C1E7FCC2100F12874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +509,7 @@
 		};
 		3609425B1E7FCC2100F12874 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187761030B4EF9A605A6B46C /* Pods-Zeamo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Zeamo/Info.plist;
@@ -270,6 +522,7 @@
 		};
 		3609425C1E7FCC2100F12874 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF647D017C4B89864F0B22C /* Pods-Zeamo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Zeamo/Info.plist;
@@ -299,6 +552,7 @@
 				3609425C1E7FCC2100F12874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

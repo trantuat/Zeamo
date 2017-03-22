@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vxc-Ge-YR1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bookings-->
+        <scene sceneID="FxC-ME-cKd">
+            <objects>
+                <viewController id="Vxc-Ge-YR1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ojl-BI-ZOb"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Yc-t6-VfC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R9b-Vt-Z9J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bookings" image="ic_bar_bookings" id="nHL-Hk-d4j"/>
+                    <navigationItem key="navigationItem" id="yRJ-Wo-EmZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNf-dS-3rl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="100.29985007496252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fqD-xj-aQz">
+            <objects>
+                <viewController id="9HT-4k-S7H" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLg-HR-iHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1946" y="-9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_bar_bookings" width="30" height="26"/>
+    </resources>
+</document>
