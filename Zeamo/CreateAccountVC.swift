@@ -22,5 +22,9 @@ class CreateAccountVC: MVVMViewController {
         super.viewDidLoad()
 
     }
-
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+        return UIInterfaceOrientationMask.all
+    }
+    
 }

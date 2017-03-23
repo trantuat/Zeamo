@@ -24,6 +24,13 @@
 		360942791E7FDD8300F12874 /* ImageRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942781E7FDD8300F12874 /* ImageRightButton.swift */; };
 		3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF71E80493F001A8C92 /* DetailClassVC.swift */; };
 		3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */; };
+		3693EBA91E83B2C200EF7A9B /* ItemBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */; };
+		36CAC8711E83654A00BCFC3B /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8701E83654A00BCFC3B /* SegmentControl.swift */; };
+		36CAC8731E8370EB00BCFC3B /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8721E8370EB00BCFC3B /* BookingVC.swift */; };
+		36CAC8751E837E3000BCFC3B /* UpcomingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */; };
+		36CAC8771E837E4800BCFC3B /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8761E837E4800BCFC3B /* HistoryVC.swift */; };
+		36CAC8791E837E5700BCFC3B /* PassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8781E837E5700BCFC3B /* PassesVC.swift */; };
+		36CAC87C1E839AD300BCFC3B /* UpcomingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC87B1E839AD300BCFC3B /* UpcomingViewModel.swift */; };
 		36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */; };
 		36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A4E1E80032000C5CA8E /* CornerView.swift */; };
 		36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */; };
@@ -60,6 +67,13 @@
 		360942781E7FDD8300F12874 /* ImageRightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightButton.swift; sourceTree = "<group>"; };
 		3625DEF71E80493F001A8C92 /* DetailClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassVC.swift; sourceTree = "<group>"; };
 		3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassViewModel.swift; sourceTree = "<group>"; };
+		3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemBookCell.swift; sourceTree = "<group>"; };
+		36CAC8701E83654A00BCFC3B /* SegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
+		36CAC8721E8370EB00BCFC3B /* BookingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingVC.swift; sourceTree = "<group>"; };
+		36CAC8761E837E4800BCFC3B /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		36CAC8781E837E5700BCFC3B /* PassesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassesVC.swift; sourceTree = "<group>"; };
+		36CAC87B1E839AD300BCFC3B /* UpcomingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewModel.swift; sourceTree = "<group>"; };
 		36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
 		36F99A4E1E80032000C5CA8E /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
@@ -147,6 +161,7 @@
 				36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */,
 				36F99A561E80119600C5CA8E /* ForgotPasswordViewModel.swift */,
 				3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */,
+				36CAC87B1E839AD300BCFC3B /* UpcomingViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -186,6 +201,10 @@
 				3609426F1E7FD65300F12874 /* CreateAccountVC.swift */,
 				36F99A541E80116100C5CA8E /* ForgotPasswordVC.swift */,
 				3625DEF71E80493F001A8C92 /* DetailClassVC.swift */,
+				36CAC8721E8370EB00BCFC3B /* BookingVC.swift */,
+				36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */,
+				36CAC8761E837E4800BCFC3B /* HistoryVC.swift */,
+				36CAC8781E837E5700BCFC3B /* PassesVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -220,6 +239,7 @@
 				360942781E7FDD8300F12874 /* ImageRightButton.swift */,
 				36F99A4E1E80032000C5CA8E /* CornerView.swift */,
 				36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */,
+				36CAC8701E83654A00BCFC3B /* SegmentControl.swift */,
 			);
 			name = CustomeView;
 			sourceTree = "<group>";
@@ -228,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				36F99A631E8035A700C5CA8E /* ItemSearchCell.swift */,
+				3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -368,11 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CAC87C1E839AD300BCFC3B /* UpcomingViewModel.swift in Sources */,
 				3609426A1E7FD27C00F12874 /* MainViewModel.swift in Sources */,
 				36F99A641E8035A700C5CA8E /* ItemSearchCell.swift in Sources */,
 				360942791E7FDD8300F12874 /* ImageRightButton.swift in Sources */,
 				360942731E7FD77400F12874 /* CircleImageView.swift in Sources */,
 				36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */,
+				36CAC8791E837E5700BCFC3B /* PassesVC.swift in Sources */,
 				3609424E1E7FCC2100F12874 /* MainVC.swift in Sources */,
 				36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */,
 				3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */,
@@ -381,13 +404,18 @@
 				36F99A531E800D7C00C5CA8E /* LoginViewModel.swift in Sources */,
 				36F99A571E80119600C5CA8E /* ForgotPasswordViewModel.swift in Sources */,
 				3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */,
+				3693EBA91E83B2C200EF7A9B /* ItemBookCell.swift in Sources */,
 				3609426E1E7FD63A00F12874 /* LoginVC.swift in Sources */,
 				360942651E7FCDF400F12874 /* ViewKey+ViewModel.swift in Sources */,
 				36F99A661E80383700C5CA8E /* Class.swift in Sources */,
 				36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */,
+				36CAC8711E83654A00BCFC3B /* SegmentControl.swift in Sources */,
 				360942751E7FD8D000F12874 /* RoundButton.swift in Sources */,
+				36CAC8731E8370EB00BCFC3B /* BookingVC.swift in Sources */,
 				3609426C1E7FD62500F12874 /* WelcomeVC.swift in Sources */,
+				36CAC8771E837E4800BCFC3B /* HistoryVC.swift in Sources */,
 				360942631E7FCDD600F12874 /* SwinjectStoryboard+View.swift in Sources */,
+				36CAC8751E837E3000BCFC3B /* UpcomingVC.swift in Sources */,
 				3609424C1E7FCC2100F12874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

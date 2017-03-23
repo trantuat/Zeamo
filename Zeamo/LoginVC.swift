@@ -21,7 +21,11 @@ class LoginVC: MVVMViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+        return UIInterfaceOrientationMask.all
+    }
 
 
 }

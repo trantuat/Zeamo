@@ -58,6 +58,14 @@ extension SwinjectStoryboard {
         container.storyboardInitCompleted(DetailClassVC.self) { (container, controller) in
             controller.viewModel = container.resolve(DetailClassViewModel.self)
         }
+        
+        container.register(UpcomingViewModel.self) { (container)  in
+            UpcomingViewModel(navigator: container.resolve(Navigator.self))
+            }.inObjectScope(.transient)
+        
+        container.storyboardInitCompleted(UpcomingVC.self) { (container, controller) in
+            controller.viewModel = container.resolve(UpcomingViewModel.self)
+        }
 
     }
     

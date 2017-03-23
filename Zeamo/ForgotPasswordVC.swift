@@ -24,5 +24,8 @@ class ForgotPasswordVC: MVVMViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+        return UIInterfaceOrientationMask.all
+    }
+    
 }

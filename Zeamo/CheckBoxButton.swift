@@ -27,7 +27,6 @@ class CheckBoxButton: UIButton {
     @IBInspectable var borderColor: UIColor = .clear {
         didSet{
             self.layer.borderColor = borderColor.cgColor
-            // bdColorUnchecked = borderColor.cgColor
         }
     }
     

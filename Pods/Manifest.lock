@@ -10,6 +10,9 @@ PODS:
     - SwiftyJSON
   - RxCocoa (3.2.0):
     - RxSwift (~> 3.1)
+  - RxDataSources (1.0.2):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
   - RxSwift (3.2.0)
   - SwiftyJSON (3.1.4)
   - Swinject (2.0.0)
@@ -19,6 +22,7 @@ PODS:
 DEPENDENCIES:
   - MVVMAdditions (from `./Dependencies/`)
   - RxCocoa
+  - RxDataSources (~> 1.0.0-rc.1)
   - Swinject (~> 2.0.0)
   - SwinjectStoryboard (~> 1.0.0)
 
@@ -32,11 +36,12 @@ SPEC CHECKSUMS:
   KeychainSwift: b6947435dd78cc442c64a84ae648dd0e871cf448
   MVVMAdditions: 18b062ba23b35647755ec1e6b554159d4c96a81d
   RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxDataSources: 1de77880bf5b7fcee42102adcd5a5d65e5b81541
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
   SwinjectStoryboard: 8e0d3c0202b64172bdf915d55e8dc83d9c4e7863
 
-PODFILE CHECKSUM: 8f67b41c07d073d9cad2143b33f13c7616132a9d
+PODFILE CHECKSUM: 0ad25764e14345e4142038c647c7041240b8ff72
 
 COCOAPODS: 1.2.0
