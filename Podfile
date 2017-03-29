@@ -10,5 +10,6 @@ target 'Zeamo' do
   pod 'SwinjectStoryboard', '~> 1.0.0'
   pod 'RxCocoa'
   pod 'RxDataSources', '~> 1.0.0-rc.1'
+  pod 'Material', '~> 2.0'
 
 end

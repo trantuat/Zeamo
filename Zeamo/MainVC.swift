@@ -16,6 +16,7 @@ class MainVC: MVVMViewController {
     var viewModel: MainViewModel!
     
     @IBOutlet weak var tableView: UITableView!
+    var searchController : UISearchController!
     
     override var delegate: ViewModelDelegate?{
         return viewModel
@@ -24,10 +25,25 @@ class MainVC: MVVMViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        addSearchBar()
         tableView.dataSource = nil
         tableView.delegate = nil
         bindingData()
+    }
+    
+    private func addSearchBar(){
+        
+        self.searchController = UISearchController(searchResultsController:  nil)
+        
+        self.searchController.searchResultsUpdater = self
+        self.searchController.searchBar.delegate = self
+        
+        self.searchController.hidesNavigationBarDuringPresentation = false
+        self.searchController.dimsBackgroundDuringPresentation = true
+        
+        self.navigationItem.titleView = searchController.searchBar
+        
+        self.definesPresentationContext = true
     }
     
     private func bindingData(){
@@ -55,8 +71,21 @@ class MainVC: MVVMViewController {
         self.disposeBag = disposeBag
     }
 
+}
+
+
+extension MainVC:  UISearchResultsUpdating {
     
+    func updateSearchResults(for searchController: UISearchController) {
+        
+    }
+}
 
-
+extension MainVC: UISearchBarDelegate{
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        print(searchText)
+    }
+    
 }
 

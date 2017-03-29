@@ -24,28 +24,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9s-Fd-wY8" customClass="SegmentControl" customModule="Zeamo" customModuleProvider="target">
-                                <rect key="frame" x="-1" y="20" width="377" height="80"/>
+                                <rect key="frame" x="-1" y="20" width="377" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="4LO-PR-iAR"/>
+                                    <constraint firstAttribute="height" constant="60" id="4LO-PR-iAR"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xV0-zN-Hk7">
-                                <rect key="frame" x="0.0" y="100" width="375" height="518"/>
+                                <rect key="frame" x="0.0" y="80" width="375" height="538"/>
                                 <connections>
                                     <segue destination="rZ8-pw-kCe" kind="embed" id="lgX-O1-GEw"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="spc-5M-CPi">
-                                <rect key="frame" x="0.0" y="100" width="375" height="518"/>
+                                <rect key="frame" x="0.0" y="80" width="375" height="538"/>
                                 <connections>
                                     <segue destination="Qi7-Oi-IrI" kind="embed" id="anw-TU-eKm"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7h-UP-wNv">
-                                <rect key="frame" x="0.0" y="100" width="375" height="518"/>
+                                <rect key="frame" x="0.0" y="80" width="375" height="538"/>
                                 <connections>
-                                    <segue destination="AVl-51-Pob" kind="embed" id="XEc-De-SCl"/>
+                                    <segue destination="AVl-51-Pob" kind="embed" id="fEt-bd-uGj"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNf-dS-3rl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823" y="-192"/>
+            <point key="canvasLocation" x="-823.20000000000005" y="-192.05397301349328"/>
         </scene>
         <!--UpcomingVC-->
         <scene sceneID="6f9-R4-d3N">
@@ -91,45 +91,45 @@
                         <viewControllerLayoutGuide type="bottom" id="Ojf-0x-D40"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5rW-d8-1kH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="95Y-Ks-4yg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.36408149719999999" blue="0.75481836930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ItemBookCell" rowHeight="80" id="DXw-Qm-c3n" customClass="ItemBookCell" customModule="Zeamo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ItemBookCell" rowHeight="60" id="DXw-Qm-c3n" customClass="ItemBookCell" customModule="Zeamo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DXw-Qm-c3n" id="w6e-9e-vtu">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revolution fitness" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-Wx-yeS">
-                                                    <rect key="frame" x="24" y="42" width="157.5" height="30"/>
+                                                    <rect key="frame" x="24" y="33" width="149.5" height="25"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="HLk-yu-Tcz"/>
+                                                        <constraint firstAttribute="height" constant="25" id="HLk-yu-Tcz"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spinyoga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmH-Cm-e5u">
-                                                    <rect key="frame" x="153.5" y="10" width="87" height="30"/>
+                                                    <rect key="frame" x="147.5" y="8" width="82.5" height="25"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="6Dv-tc-BKq"/>
+                                                        <constraint firstAttribute="height" constant="25" id="6Dv-tc-BKq"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4:30-6:00 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuR-eO-f3F">
-                                                    <rect key="frame" x="24" y="10" width="119.5" height="30"/>
+                                                    <rect key="frame" x="24" y="8" width="113.5" height="25"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="rCJ-qH-SV3"/>
+                                                        <constraint firstAttribute="height" constant="25" id="rCJ-qH-SV3"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                                     <color key="textColor" red="0.15186763695428659" green="0.4526689403553299" blue="0.28348859765661683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -140,9 +140,9 @@
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="EpZ-Wx-yeS" secondAttribute="trailing" constant="10" id="T7V-DL-hZv"/>
                                                 <constraint firstItem="uuR-eO-f3F" firstAttribute="leading" secondItem="w6e-9e-vtu" secondAttribute="leadingMargin" constant="16" id="elW-IH-VG7"/>
                                                 <constraint firstItem="EpZ-Wx-yeS" firstAttribute="leading" secondItem="w6e-9e-vtu" secondAttribute="leadingMargin" constant="16" id="jFw-5u-qoL"/>
-                                                <constraint firstItem="uuR-eO-f3F" firstAttribute="top" secondItem="w6e-9e-vtu" secondAttribute="topMargin" constant="2" id="q9B-7F-LL6"/>
+                                                <constraint firstItem="uuR-eO-f3F" firstAttribute="top" secondItem="w6e-9e-vtu" secondAttribute="topMargin" id="q9B-7F-LL6"/>
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="xmH-Cm-e5u" secondAttribute="trailing" constant="16" id="r0f-Ej-gi9"/>
-                                                <constraint firstItem="EpZ-Wx-yeS" firstAttribute="top" secondItem="uuR-eO-f3F" secondAttribute="bottom" constant="2" id="u4e-BA-MI0"/>
+                                                <constraint firstItem="EpZ-Wx-yeS" firstAttribute="top" secondItem="uuR-eO-f3F" secondAttribute="bottom" id="u4e-BA-MI0"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -179,7 +179,7 @@
                         <viewControllerLayoutGuide type="bottom" id="TbV-xg-7Ni"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7lF-hK-yJn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgY-Hq-43u">
@@ -206,14 +206,14 @@
                         <viewControllerLayoutGuide type="bottom" id="fOF-JU-ARc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dO2-Vi-idN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GpQ-lg-RDu">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qoB-hj-FJ6">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="518"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Lr-zo-gRV" customClass="CornerView" customModule="Zeamo" customModuleProvider="target">
@@ -327,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZY-BC-lXI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-71.200000000000003" y="446.17691154422795"/>
+            <point key="canvasLocation" x="-823" y="479"/>
         </scene>
     </scenes>
     <resources>

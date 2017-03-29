@@ -65,18 +65,18 @@ extension UpcomingVC: UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 80
+        return 60
     }
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         let v: UITableViewHeaderFooterView = view as! UITableViewHeaderFooterView
         v.backgroundView?.backgroundColor = UIColor(red: 226/255, green: 229/255, blue: 238/255, alpha: 1)
         v.textLabel?.textColor = UIColor.darkGray
-        v.textLabel?.font = UIFont(name: "Avenir-Heavy", size: 20.0)!
+        v.textLabel?.font = UIFont(name: "Avenir-Heavy", size: 19.0)!
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 60
     }
 }
 

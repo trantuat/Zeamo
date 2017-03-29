@@ -9,27 +9,37 @@
 import UIKit
 
 class ConfirmCreateAccountVC: UIViewController {
+    
+    @IBOutlet weak var passwordTextFeild: CornerTextField!
+    
+    @IBOutlet weak var emailTextFeild: CornerTextField!
+    
+    @IBOutlet weak var reenterPasswordTextFeild: CornerTextField!
+    
+    @IBOutlet weak var labelErrorHeigh: NSLayoutConstraint!
+    
+    var error = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func btnContinuteTap(_ sender: Any) {
+        if error {
+            labelErrorHeigh.constant = 40
+            emailTextFeild.backgroundColor = UIColor(red: 247/255, green: 220/255, blue: 255/255, alpha: 1)
+        }else{
+            labelErrorHeigh.constant = 0
+            emailTextFeild.backgroundColor = UIColor.clear
+        }
+        
+        error = !error
+        
     }
-    */
+
+
+    
 
 }

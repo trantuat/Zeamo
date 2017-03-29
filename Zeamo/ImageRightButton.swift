@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ImageRightButton: UIButton {
+class ImageRightButton: RoundButton {
     
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -18,10 +18,7 @@ class ImageRightButton: UIButton {
             let imageSize = imageView?.intrinsicContentSize {
             
             self.titleEdgeInsets = UIEdgeInsets(top: 0.0, left: -imageSize.width, bottom: 0.0, right: imageSize.width);
-              self.imageEdgeInsets = UIEdgeInsets(top: 0.0, left: textSize.width, bottom: 0.0, right: -textSize.width);
+            self.imageEdgeInsets = UIEdgeInsets(top: 0.0, left: textSize.width, bottom: 0.0, right: -textSize.width);
         }
-//        self.titleEdgeInsets = UIEdgeInsets(top: 0.0, left: -titleLabel?.frame.size.width, bottom: 0.0, right: titleLabel?.frame.size.width);
-//        self.imageEdgeInsets = (UIEdgeInsets){0.0, titleLabel.frame.size.width, 0.0, -titleLabel.frame.size.width};
-        
     }
 }

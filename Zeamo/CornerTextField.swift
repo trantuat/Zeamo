@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class TextFeildCustom: UITextField {
+class CornerTextField: UITextField {
     
     @IBInspectable var radius: CGFloat = 0{
         didSet{

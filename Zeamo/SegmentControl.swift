@@ -25,8 +25,8 @@ import UIKit
     
     var textColor = UIColor.lightGray
     var textColorSelected = UIColor(red: 44/255, green: 68/225, blue: 120/225, alpha: 1)
-    var borderWidth: CGFloat = 1
-    var borderColor = UIColor.lightGray
+    //var borderWidth: CGFloat = 1
+   // var borderColor = UIColor.lightGray
     var font: UIFont = UIFont(name: "Avenir", size: 20.0)!
     var fontSelected: UIFont = UIFont(name: "Avenir-Heavy", size: 20.0)!
     var thumbView = UIView()
@@ -53,8 +53,8 @@ import UIKit
     
     private func setUpView(){
         layer.cornerRadius = 0
-        layer.borderColor = borderColor.cgColor
-        layer.borderWidth = borderWidth
+        layer.borderColor = UIColor.lightGray.cgColor
+        layer.borderWidth = 1
         
         setUplabel()
         selectedIndex = 0

@@ -11,20 +11,22 @@ import UIKit
 
 @IBDesignable
 class RoundButton: UIButton {
-    @IBInspectable var cornerRadius: CGFloat = 0{
+    
+    
+    @IBInspectable var mcornerRadius: CGFloat = 0{
         didSet{
-            self.layer.cornerRadius = cornerRadius
+            self.layer.cornerRadius = mcornerRadius
         }
     }
-    @IBInspectable var borderWidth: CGFloat = 0{
+    @IBInspectable var mborderWidth: CGFloat = 0{
         didSet{
-            self.layer.borderWidth = borderWidth
+            self.layer.borderWidth = mborderWidth
         }
     }
     
-    @IBInspectable var borderColor: UIColor = .clear {
+    @IBInspectable var mborderColor: UIColor = .clear {
         didSet{
-            self.layer.borderColor = borderColor.cgColor
+            self.layer.borderColor = mborderColor.cgColor
         }
     }
 

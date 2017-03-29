@@ -24,6 +24,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Zeamo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,27 +77,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0321B28169890B730CF2EA470B00AC67</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>38ACA430605AFB4229712A18BDDF5086</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41F1A0FA059653B0731C15403AE8A2D3</key>
+		<key>4017B0B8815FF792314F1A877AAA2243</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6E90E7F7BBC3AF1C977A0A6DD0F279D2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>70AEA1BD1B708D49CE024128AE928296</key>
+		<key>4A2F765C0008E6907A56FA900AB21F77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,12 +97,37 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>7C9D90B585E717F23368AAC09B2BBBF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A9AC9D3C9F6690B9FF5302DDA92F6146</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B7C7E21EB0F25EA2AF69FE716E9954FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B972F55A90DC4EA6200084E69E40E9A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6D2720C9E2564EE54AF5E9AD0E67DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C10A3D56D9722EC76584E3911946028F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +142,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E57FEFE9C9349051A9312EAA3BAF8BD4</key>
+		<key>F7034465072087D7D98FAB17928C8D91</key>
 		<dict>
 			<key>primary</key>
 			<true/>

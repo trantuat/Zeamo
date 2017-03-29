@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1428096D276345A977755F41 /* Pods_Zeamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00362A0D42115C4BC10B2883 /* Pods_Zeamo.framework */; };
+		3608EFD61E85524400042248 /* InsuranceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608EFD51E85524400042248 /* InsuranceVC.swift */; };
+		3608EFD81E8562D400042248 /* InsuranceInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608EFD71E8562D400042248 /* InsuranceInformationVC.swift */; };
+		3608EFDA1E8565B700042248 /* ArrowButtonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608EFD91E8565B700042248 /* ArrowButtonTextField.swift */; };
 		3609424C1E7FCC2100F12874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609424B1E7FCC2100F12874 /* AppDelegate.swift */; };
 		3609424E1E7FCC2100F12874 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3609424D1E7FCC2100F12874 /* MainVC.swift */; };
 		360942511E7FCC2100F12874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3609424F1E7FCC2100F12874 /* Main.storyboard */; };
@@ -22,9 +25,22 @@
 		360942731E7FD77400F12874 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942721E7FD77400F12874 /* CircleImageView.swift */; };
 		360942751E7FD8D000F12874 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942741E7FD8D000F12874 /* RoundButton.swift */; };
 		360942791E7FDD8300F12874 /* ImageRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360942781E7FDD8300F12874 /* ImageRightButton.swift */; };
+		360DA7241E88FE2900978898 /* ReimbursementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DA7231E88FE2900978898 /* ReimbursementVC.swift */; };
+		360DA7261E890CF600978898 /* AccountSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DA7251E890CF600978898 /* AccountSettingVC.swift */; };
 		3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF71E80493F001A8C92 /* DetailClassVC.swift */; };
 		3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */; };
+		368BBA381E850ABE00A92779 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BBA371E850ABE00A92779 /* CardView.swift */; };
+		368BBA3A1E850BE000A92779 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BBA391E850BE000A92779 /* FavoritesVC.swift */; };
+		368BBA3C1E85173500A92779 /* ItemClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BBA3B1E85173500A92779 /* ItemClassCell.swift */; };
 		3693EBA91E83B2C200EF7A9B /* ItemBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */; };
+		3693EBAC1E83CEC700EF7A9B /* CornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693EBAB1E83CEC700EF7A9B /* CornerTextField.swift */; };
+		3693EBAE1E83DE5100EF7A9B /* ConfirmCreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3693EBAD1E83DE5100EF7A9B /* ConfirmCreateAccountVC.swift */; };
+		36C9BE271E8A6D6A004E9E50 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE261E8A6D6A004E9E50 /* NotificationVC.swift */; };
+		36C9BE291E8A6DA2004E9E50 /* PaymentsCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE281E8A6DA2004E9E50 /* PaymentsCardVC.swift */; };
+		36C9BE2B1E8A6DC7004E9E50 /* CalendarSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE2A1E8A6DC7004E9E50 /* CalendarSettingVC.swift */; };
+		36C9BE2D1E8A6DE8004E9E50 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE2C1E8A6DE8004E9E50 /* FAQVC.swift */; };
+		36C9BE2F1E8A6E11004E9E50 /* TermsOfUseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE2E1E8A6E11004E9E50 /* TermsOfUseVC.swift */; };
+		36C9BE311E8A6E31004E9E50 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BE301E8A6E31004E9E50 /* PrivacyPolicyVC.swift */; };
 		36CAC8711E83654A00BCFC3B /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8701E83654A00BCFC3B /* SegmentControl.swift */; };
 		36CAC8731E8370EB00BCFC3B /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8721E8370EB00BCFC3B /* BookingVC.swift */; };
 		36CAC8751E837E3000BCFC3B /* UpcomingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */; };
@@ -32,6 +48,7 @@
 		36CAC8791E837E5700BCFC3B /* PassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC8781E837E5700BCFC3B /* PassesVC.swift */; };
 		36CAC87C1E839AD300BCFC3B /* UpcomingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CAC87B1E839AD300BCFC3B /* UpcomingViewModel.swift */; };
 		36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */; };
+		36F82BF71E8AC72D008938B3 /* ProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F82BF61E8AC72D008938B3 /* ProcessView.swift */; };
 		36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A4E1E80032000C5CA8E /* CornerView.swift */; };
 		36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */; };
 		36F99A531E800D7C00C5CA8E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */; };
@@ -49,6 +66,9 @@
 /* Begin PBXFileReference section */
 		00362A0D42115C4BC10B2883 /* Pods_Zeamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		187761030B4EF9A605A6B46C /* Pods-Zeamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zeamo/Pods-Zeamo.debug.xcconfig"; sourceTree = "<group>"; };
+		3608EFD51E85524400042248 /* InsuranceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceVC.swift; sourceTree = "<group>"; };
+		3608EFD71E8562D400042248 /* InsuranceInformationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceInformationVC.swift; sourceTree = "<group>"; };
+		3608EFD91E8565B700042248 /* ArrowButtonTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowButtonTextField.swift; sourceTree = "<group>"; };
 		360942481E7FCC2100F12874 /* Zeamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3609424B1E7FCC2100F12874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3609424D1E7FCC2100F12874 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -65,9 +85,22 @@
 		360942721E7FD77400F12874 /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		360942741E7FD8D000F12874 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		360942781E7FDD8300F12874 /* ImageRightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightButton.swift; sourceTree = "<group>"; };
+		360DA7231E88FE2900978898 /* ReimbursementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReimbursementVC.swift; sourceTree = "<group>"; };
+		360DA7251E890CF600978898 /* AccountSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingVC.swift; sourceTree = "<group>"; };
 		3625DEF71E80493F001A8C92 /* DetailClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassVC.swift; sourceTree = "<group>"; };
 		3625DEF91E804973001A8C92 /* DetailClassViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailClassViewModel.swift; sourceTree = "<group>"; };
+		368BBA371E850ABE00A92779 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		368BBA391E850BE000A92779 /* FavoritesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		368BBA3B1E85173500A92779 /* ItemClassCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemClassCell.swift; sourceTree = "<group>"; };
 		3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemBookCell.swift; sourceTree = "<group>"; };
+		3693EBAB1E83CEC700EF7A9B /* CornerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerTextField.swift; sourceTree = "<group>"; };
+		3693EBAD1E83DE5100EF7A9B /* ConfirmCreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmCreateAccountVC.swift; sourceTree = "<group>"; };
+		36C9BE261E8A6D6A004E9E50 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		36C9BE281E8A6DA2004E9E50 /* PaymentsCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsCardVC.swift; sourceTree = "<group>"; };
+		36C9BE2A1E8A6DC7004E9E50 /* CalendarSettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarSettingVC.swift; sourceTree = "<group>"; };
+		36C9BE2C1E8A6DE8004E9E50 /* FAQVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQVC.swift; sourceTree = "<group>"; };
+		36C9BE2E1E8A6E11004E9E50 /* TermsOfUseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfUseVC.swift; sourceTree = "<group>"; };
+		36C9BE301E8A6E31004E9E50 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
 		36CAC8701E83654A00BCFC3B /* SegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 		36CAC8721E8370EB00BCFC3B /* BookingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
 		36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingVC.swift; sourceTree = "<group>"; };
@@ -75,6 +108,7 @@
 		36CAC8781E837E5700BCFC3B /* PassesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassesVC.swift; sourceTree = "<group>"; };
 		36CAC87B1E839AD300BCFC3B /* UpcomingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewModel.swift; sourceTree = "<group>"; };
 		36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		36F82BF61E8AC72D008938B3 /* ProcessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessView.swift; sourceTree = "<group>"; };
 		36F99A4E1E80032000C5CA8E /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
 		36F99A501E8007BF00C5CA8E /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
 		36F99A521E800D7C00C5CA8E /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -205,6 +239,18 @@
 				36CAC8741E837E3000BCFC3B /* UpcomingVC.swift */,
 				36CAC8761E837E4800BCFC3B /* HistoryVC.swift */,
 				36CAC8781E837E5700BCFC3B /* PassesVC.swift */,
+				3693EBAD1E83DE5100EF7A9B /* ConfirmCreateAccountVC.swift */,
+				368BBA391E850BE000A92779 /* FavoritesVC.swift */,
+				3608EFD51E85524400042248 /* InsuranceVC.swift */,
+				3608EFD71E8562D400042248 /* InsuranceInformationVC.swift */,
+				360DA7231E88FE2900978898 /* ReimbursementVC.swift */,
+				360DA7251E890CF600978898 /* AccountSettingVC.swift */,
+				36C9BE261E8A6D6A004E9E50 /* NotificationVC.swift */,
+				36C9BE281E8A6DA2004E9E50 /* PaymentsCardVC.swift */,
+				36C9BE2A1E8A6DC7004E9E50 /* CalendarSettingVC.swift */,
+				36C9BE2C1E8A6DE8004E9E50 /* FAQVC.swift */,
+				36C9BE2E1E8A6E11004E9E50 /* TermsOfUseVC.swift */,
+				36C9BE301E8A6E31004E9E50 /* PrivacyPolicyVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -240,6 +286,10 @@
 				36F99A4E1E80032000C5CA8E /* CornerView.swift */,
 				36E50F7C1E82CCC0009D076D /* CheckBoxButton.swift */,
 				36CAC8701E83654A00BCFC3B /* SegmentControl.swift */,
+				3693EBAB1E83CEC700EF7A9B /* CornerTextField.swift */,
+				368BBA371E850ABE00A92779 /* CardView.swift */,
+				3608EFD91E8565B700042248 /* ArrowButtonTextField.swift */,
+				36F82BF61E8AC72D008938B3 /* ProcessView.swift */,
 			);
 			name = CustomeView;
 			sourceTree = "<group>";
@@ -249,6 +299,7 @@
 			children = (
 				36F99A631E8035A700C5CA8E /* ItemSearchCell.swift */,
 				3693EBA81E83B2C200EF7A9B /* ItemBookCell.swift */,
+				368BBA3B1E85173500A92779 /* ItemClassCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -396,26 +447,43 @@
 				360942731E7FD77400F12874 /* CircleImageView.swift in Sources */,
 				36E50F7D1E82CCC0009D076D /* CheckBoxButton.swift in Sources */,
 				36CAC8791E837E5700BCFC3B /* PassesVC.swift in Sources */,
+				3608EFD61E85524400042248 /* InsuranceVC.swift in Sources */,
+				3693EBAC1E83CEC700EF7A9B /* CornerTextField.swift in Sources */,
+				36F82BF71E8AC72D008938B3 /* ProcessView.swift in Sources */,
 				3609424E1E7FCC2100F12874 /* MainVC.swift in Sources */,
+				368BBA381E850ABE00A92779 /* CardView.swift in Sources */,
+				3693EBAE1E83DE5100EF7A9B /* ConfirmCreateAccountVC.swift in Sources */,
 				36F99A511E8007BF00C5CA8E /* CreateAccountViewModel.swift in Sources */,
 				3625DEFA1E804973001A8C92 /* DetailClassViewModel.swift in Sources */,
 				36F99A551E80116100C5CA8E /* ForgotPasswordVC.swift in Sources */,
+				36C9BE311E8A6E31004E9E50 /* PrivacyPolicyVC.swift in Sources */,
 				360942701E7FD65300F12874 /* CreateAccountVC.swift in Sources */,
 				36F99A531E800D7C00C5CA8E /* LoginViewModel.swift in Sources */,
 				36F99A571E80119600C5CA8E /* ForgotPasswordViewModel.swift in Sources */,
 				3625DEF81E80493F001A8C92 /* DetailClassVC.swift in Sources */,
+				360DA7261E890CF600978898 /* AccountSettingVC.swift in Sources */,
+				368BBA3C1E85173500A92779 /* ItemClassCell.swift in Sources */,
+				36C9BE2D1E8A6DE8004E9E50 /* FAQVC.swift in Sources */,
+				36C9BE2B1E8A6DC7004E9E50 /* CalendarSettingVC.swift in Sources */,
 				3693EBA91E83B2C200EF7A9B /* ItemBookCell.swift in Sources */,
 				3609426E1E7FD63A00F12874 /* LoginVC.swift in Sources */,
 				360942651E7FCDF400F12874 /* ViewKey+ViewModel.swift in Sources */,
+				360DA7241E88FE2900978898 /* ReimbursementVC.swift in Sources */,
 				36F99A661E80383700C5CA8E /* Class.swift in Sources */,
+				3608EFD81E8562D400042248 /* InsuranceInformationVC.swift in Sources */,
 				36F99A4F1E80032000C5CA8E /* CornerView.swift in Sources */,
 				36CAC8711E83654A00BCFC3B /* SegmentControl.swift in Sources */,
+				368BBA3A1E850BE000A92779 /* FavoritesVC.swift in Sources */,
+				36C9BE2F1E8A6E11004E9E50 /* TermsOfUseVC.swift in Sources */,
 				360942751E7FD8D000F12874 /* RoundButton.swift in Sources */,
 				36CAC8731E8370EB00BCFC3B /* BookingVC.swift in Sources */,
 				3609426C1E7FD62500F12874 /* WelcomeVC.swift in Sources */,
 				36CAC8771E837E4800BCFC3B /* HistoryVC.swift in Sources */,
 				360942631E7FCDD600F12874 /* SwinjectStoryboard+View.swift in Sources */,
+				36C9BE291E8A6DA2004E9E50 /* PaymentsCardVC.swift in Sources */,
+				3608EFDA1E8565B700042248 /* ArrowButtonTextField.swift in Sources */,
 				36CAC8751E837E3000BCFC3B /* UpcomingVC.swift in Sources */,
+				36C9BE271E8A6D6A004E9E50 /* NotificationVC.swift in Sources */,
 				3609424C1E7FCC2100F12874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
